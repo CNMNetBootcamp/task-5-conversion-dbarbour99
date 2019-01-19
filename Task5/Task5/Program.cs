@@ -37,6 +37,7 @@ namespace Task5
                         if (isNumeric == false || double.Parse(tempnum) <= 0)
                         {
                             Console.WriteLine("Please enter a positive number");
+                            //TODO:  Very good way of handling bad user input
                             isNumeric = false;
                         }
 
